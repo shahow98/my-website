@@ -2,11 +2,10 @@
   "arc": {
     "app": "personal-site",
     "http": [
-      [
-        "get",
-        "/"
-      ]
     ],
+    "static": {
+      "folder": "dist"
+    },
     "tables": [
       {
         "data": {
